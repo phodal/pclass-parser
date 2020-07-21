@@ -24,12 +24,15 @@ exclude = [
 [dependencies]
 
 [dependencies.class-parser]
-path = "class-parser"
+path = "./class-parser"
+version = "0.1.0"
 
 [dependencies.classfile]
-path = "classfile"
+path = "./classfile"
+version = "0.1.0"
 
 [workspace]
 members = [
     "classfile",
+    "class-parser",
 ]
