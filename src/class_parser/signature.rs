@@ -1,5 +1,5 @@
-use classfile::BytesRef;
-use classfile::SignatureType as Type;
+use crate::classfile::BytesRef;
+use crate::classfile::SignatureType as Type;
 
 use nom::bytes::complete::{take, take_till};
 use nom::character::complete::{char, one_of};

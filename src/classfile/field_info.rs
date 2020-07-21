@@ -1,5 +1,5 @@
-use crate::attributes::Type;
-use crate::types::U2;
+use crate::classfile::attributes::Type;
+use crate::classfile::types::U2;
 
 #[derive(Debug)]
 pub struct FieldInfo {

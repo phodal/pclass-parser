@@ -1,3 +1,11 @@
+#[macro_use]
+extern crate lazy_static;
+#[macro_use]
+extern crate log;
+
+pub mod classfile;
+pub mod class_parser;
+
 pub use class_parser::parse_class as parse_class;
 pub use class_parser::{ClassSignature, FieldSignature, MethodSignature};
 

@@ -1,4 +1,4 @@
-use classfile::{
+use crate::classfile::{
     attributes::{self, Tag as AttrTag, TargetInfo, TypeAnnotation},
     constant_pool, AttributeType, ClassFile, ConstantPool, FieldInfo, MethodInfo, Version,
 };

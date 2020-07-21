@@ -6,10 +6,6 @@
 //! class file format of the Java Virtual Machine.
 //!
 //! It's not class file parser.
-#[macro_use]
-extern crate lazy_static;
-#[macro_use]
-extern crate log;
 pub mod attributes;
 mod classfile;
 pub mod constant_pool;
@@ -22,7 +18,7 @@ mod signature;
 pub mod types;
 mod version;
 
-pub use crate::classfile::ClassFile;
+pub use crate::classfile::classfile::ClassFile;
 pub use attributes::Type as AttributeType;
 pub use constant_pool::Type as ConstantPoolType;
 pub use field_info::FieldInfo;

@@ -1,5 +1,6 @@
-use crate::types::{BytesRef, U1, U2, U4};
 use std::sync::Arc;
+use crate::classfile::types::{U2, U1, U4};
+use crate::BytesRef;
 
 #[derive(Debug, Clone)]
 pub enum Type {

@@ -1,4 +1,4 @@
-use class_parser::parse_class;
+use pclass_parser::parse_class;
 
 fn main() {
     parse_class(b"");

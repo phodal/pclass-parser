@@ -1,4 +1,4 @@
-use crate::types::U2;
+use crate::classfile::types::U2;
 
 #[derive(Debug)]
 pub struct Version {

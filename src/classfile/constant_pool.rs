@@ -1,11 +1,11 @@
-use crate::consts::{
+use crate::classfile::consts::{
     CONSTANT_INTERFACE_METHOD_REF_TAG, CONSTANT_METHOD_REF_TAG, METHOD_NAME_CLINIT,
     METHOD_NAME_INIT,
 };
-use crate::types::{BytesRef, ConstantPool};
 use fmt::Debug;
 use std::fmt;
 use std::sync::Arc;
+use crate::{ConstantPool, BytesRef};
 
 pub fn get_class_name(cp: &ConstantPool, idx: usize) -> Option<BytesRef> {
     match cp.get(idx) {

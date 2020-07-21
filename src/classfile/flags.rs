@@ -1,4 +1,4 @@
-use crate::types::*;
+use crate::classfile::types::*;
 
 macro_rules! def_acc {
     ($name:ident, $v:expr) => {

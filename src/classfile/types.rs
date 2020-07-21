@@ -1,4 +1,4 @@
-use crate::constant_pool;
+use crate::classfile::constant_pool;
 use std::sync::Arc;
 
 pub type U1 = u8;
