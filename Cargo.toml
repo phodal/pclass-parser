@@ -3,6 +3,21 @@ name = "pclass-parser"
 version = "0.1.0"
 authors = ["Phodal Huang <h@phodal.com>"]
 edition = "2018"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/phodal/pclass-parser"
+documentation = "https://github.com/phodal/pclass-parser"
+homepage = "https://github.com/phodal/pclass-parser"
+description = """
+https://github.com/phodal/pclass-parser
+"""
+categories = ["text-processing"]
+exclude = [
+    "_fixtures",
+    "docs",
+    ".github",
+    ".travis.yml",
+]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
