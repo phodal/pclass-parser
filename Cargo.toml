@@ -1,7 +1,7 @@
 [package]
 name = "pclass-parser"
 version = "0.1.0"
-authors = ["Phodal Huang <h@phodal.com>"]
+authors = ["Dou Chuan <1843657913@qq.com>", "Phodal Huang <h@phodal.com>"]
 edition = "2018"
 license = "MIT"
 readme = "README.md"
